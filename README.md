@@ -22,7 +22,7 @@ The server disables caching so edits show on a normal refresh.
 | Section 3A → 3B → 3C | `src/agents.js` | Pinned headline + audience switch; scroll steps Before → During → After. Audience pills and phase labels are clickable (phase clicks scroll to that step). |
 | Section 6 | `src/tools.js` | Pinned headline; all 25 tools (from `laylo-homepage-AM.html`) scroll up through a faded window in a 6-column grid. |
 | Section 5 | `src/testimonials.js` | Pinned horizontal scroll through the testimonial cards. |
-| Footer | `src/footer.js` | Large wordmark letters rise in; the drop in the A wiggles on hover. |
+| Footer | `src/footer.js` | Large wordmark letters rise in. |
 
 Everything scroll-driven is scrubbed, so it runs the same in both directions. The Before/During/After
 content is the one exception by design: it switches state at thirds of the pin with a short
